@@ -4,7 +4,7 @@ import { NewsArticle, NewsResponse } from '@/models/NewsArticles';
 
 
 
-export async function page():Promise<NewsArticle> {
+export default async function Home(){
   await new Promise(r => setTimeout(r,6000));
   const response =  await fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=" + process.env.Api_Key);
 
@@ -21,4 +21,3 @@ export async function page():Promise<NewsArticle> {
   )
 }
 
-export default page;

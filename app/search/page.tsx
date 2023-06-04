@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 
 
-export  function SearchPage() {
+export  function page() {
   return (
         <div className="w-full space-y-2 px-4 py-2  text-4xl">
         <Input  className="max-w-lg  bg-white py-2" type="email" placeholder="Email" />
@@ -12,4 +12,4 @@ export  function SearchPage() {
   ) 
 }
 
-export default SearchPage 
+export default page 

@@ -10,7 +10,7 @@ export default async function Home(){
 
   const newResponse:NewsResponse = await response.json();
 
-  const newArticles:NewsArticle[] =  newResponse.articles;
+  const newArticles:NewsArticle[] = await newResponse.articles;
   
   
   return (

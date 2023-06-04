@@ -1,6 +1,6 @@
 import NewsGrid from '@/components/local/NewsGrid';
 import { NewsArticle, NewsResponse } from '@/models/NewsArticles';
-
+import { NextPage } from 'next';
 
 
 

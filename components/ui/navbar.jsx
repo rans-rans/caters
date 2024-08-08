@@ -13,7 +13,7 @@ return (
        <p>caters</p>
        <div className='flex items-center justify-center gap-6'>
         <NavLink  
-        className={pathname === '/' ? 'text-lg opacity-100 text-p-red' : 'text-p-black'}  
+        className={'text-lg opacity-100 text-p-red'}  
         hreff={'/'} 
         linkname={'home'}
         linkicon={<Home/>}

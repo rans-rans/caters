@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import NavLink from './link'
-import { Home,BadgeInfo,CalendarDays, ChevronRight } from 'lucide-react'
+import { Home,BadgeInfo,CalendarDays, ChevronRight, Menu } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 
 
@@ -11,7 +11,7 @@ export default function NavBar() {
 return (
     <div className="flex items-center justify-between " >
        <p>caters</p>
-       <div className='flex items-center justify-center gap-6'>
+       <div className='hidden md:flex items-center justify-center gap-6'>
         <NavLink  
         className={pathname == '/' ? 'underline underline-offset-4 ' : ""}  
         hreff={'/'} 
@@ -41,6 +41,9 @@ return (
         linkicon={<ChevronRight/>}
         />
 
+       </div >
+       <div className="md:hidden">
+        <Menu/>
        </div>
     </div>
   )

@@ -9,7 +9,7 @@ export default function NavLink({linkname, hreff, className,linkicon,path}) {
         <div className="">
         {linkicon}
         </div>
-        <p className={"text-sm uppercase tracking-wide" + path == linkname  ? 'text-p-red' : 'text-p-black' }>
+        <p className={path == linkname  ? 'text-p-red text-sm uppercase tracking-wide' : 'text-p-black text-sm uppercase tracking-wide' }>
         {linkname}
         </p>
     </Link>

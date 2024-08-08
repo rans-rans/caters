@@ -1,9 +1,9 @@
-import ChatForm from "@/components/customs/chatform";
-import NavBar from "@/components/customs/navbar";
+import Image from "next/image";
 
-export  default  async function Home() {
+export default function Home() {
   return (
-   <section className="">
-   </section>
+    <section className="" >
+        
+    </section>
   );
 }

@@ -13,30 +13,30 @@ return (
        <p>caters</p>
        <div className='flex items-center justify-center gap-6'>
         <NavLink  
-        className={'text-lg opacity-100 text-p-red'}  
+        className={pathname == '/' ? 'underline underline-offset-4 ' : ""}  
         hreff={'/'} 
         linkname={'home'}
         linkicon={<Home/>}
-        path={pathname}
+        
         />
         
         <NavLink  
-        className={'text-lg'}  
-        hreff={'/'} 
+        className={pathname == '/about' ? 'underline underline-offset-4  ' : ""}  
+        hreff={'about'} 
         linkname={'about'}
         linkicon={<BadgeInfo/>}
         />
         
         <NavLink  
-        className={'text-lg'}  
-        hreff={'/'} 
+        className={pathname == '/booking' ? 'underline underline-offset-4 ' : ""}  
+        hreff={'/booking'} 
         linkname={'booking'}
         linkicon={<CalendarDays/>}
         />
 
         <NavLink  
-        className={'flex-row-reverse text-lg'}  
-        hreff={'/'} 
+        className={pathname == '/more' ? 'underline underline-offset-4 text-p-red flex-row-reverse' : 'flex-row-reverse text-p-black'}  
+        hreff={'/more'} 
         linkname={'more'}
         linkicon={<ChevronRight/>}
         />

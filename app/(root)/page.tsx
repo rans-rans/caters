@@ -25,7 +25,7 @@ const Home = () => {
         </div>
         <div>
           <ImageSlider images={sliders}/>
-          <FeatureItems items={featuredfooditem}/>
+          <FeatureItems item={featuredfooditem}/>
         </div>
       </div>
       <RightSidebar user={loggedIn}/>

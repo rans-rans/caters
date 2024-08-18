@@ -14,17 +14,17 @@ import Image from "next/image"
 interface pageprops {
     item : featuredItem[]
 }
-export function FeatureItems({items}:pageprops) {
+export function FeatureItems({item}:pageprops) {
   return (
-    <Carousel className="w-full max-w-lg mx-auto pt-10">
+    <Carousel className="w-full max-w-lg mx-auto pt-14">
       <CarouselContent className="-ml-1">
-        {items.map((item, index) => (
+        {item.map((item, index) => (
           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="">
               <Card>
                 <CardContent className="relative flex aspect-square items-center justify-center ">
                 <div className="">
-                    <div className="absolute bg-black/80 rounded-sm w-full h-full">
+                    <div className="hidden hover:block absolute bg-black/80 rounded-sm w-full h-full">
                         <div className="p-8 text-white text-lg leading-tight ">
                             <div>
                             {item.itemName}

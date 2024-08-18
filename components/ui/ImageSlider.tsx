@@ -39,7 +39,7 @@ export default function ImageSlider({images}:imagesliderprops) {
       <Carousel plugins={[
         Autoplay({
           delay: 4000,
-          
+
         })
       ]} setApi={setApi} className="w-full max-w-xs">
         <CarouselContent className="w-full">
@@ -50,8 +50,8 @@ export default function ImageSlider({images}:imagesliderprops) {
                   <Image
                     src={`/${item}`}
                     alt={`slide ${index}`}
-                    width={100}
-                    height={100}
+                    width={1000}
+                    height={1000}
                     className="w-full h-full object-cover"
                   />
                 </CardContent>

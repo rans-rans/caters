@@ -39,8 +39,8 @@ export function FeatureItems({item}:pageprops) {
                     <Image 
                         src={`/${item.image}`}
                         alt={item.itemName}
-                        width={50}
-                        height={50}
+                        width={100}
+                        height={100}
                         className="rounded-sm object-cover "
                     />
                 </div>

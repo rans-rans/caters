@@ -38,7 +38,8 @@ export default function ImageSlider({images}:imagesliderprops) {
     <div className="flex-center flex-col w-[90%] mx-auto">
       <Carousel plugins={[
         Autoplay({
-          delay: 2000
+          delay: 4000,
+          
         })
       ]} setApi={setApi} className="w-full max-w-xs">
         <CarouselContent className="w-full">

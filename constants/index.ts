@@ -22,6 +22,25 @@ export const sidebarLinks = [
 
 ];
 
+export const  featuredfooditem = [
+  {
+    itemName: 'Waakye',
+    image: 'assets/waakye.jpg'
+  },
+  {
+    itemName: 'Jollof',
+    image: 'assets/jollof.jpg'
+  },
+  {
+    itemName: 'Salad',
+    image: 'assets/salat.jpg'
+  },
+  {
+    itemName: 'fried Rice',
+    image: 'assets/friedrice.jpg'
+  }
+]
+
 // good_user / good_password - Bank of America
 export const TEST_USER_ID = "6627ed3d00267aa6fa3e";
 

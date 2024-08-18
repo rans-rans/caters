@@ -1,7 +1,8 @@
+import { FeatureItems } from '@/components/ui/FeaturedItem'
 import HeaderBox from '@/components/ui/HeaderBox'
 import ImageSlider from '@/components/ui/ImageSlider'
 import RightSidebar from '@/components/ui/RightSidebar'
-import { sliders } from '@/constants'
+import { featuredfooditem, sliders } from '@/constants'
 import React from 'react'
  
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
         </div>
         <div>
           <ImageSlider images={sliders}/>
+          <FeatureItems items={featuredfooditem}/>
         </div>
       </div>
       <RightSidebar user={loggedIn}/>

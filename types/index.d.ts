@@ -213,6 +213,11 @@ declare interface RightSidebarProps {
  
 }
 
+declare interface featuredItem {
+  itemName : string,
+  image : string
+}
+
 declare interface SiderbarProps {
   user: User;
 }

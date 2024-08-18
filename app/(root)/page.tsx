@@ -25,6 +25,11 @@ const Home = () => {
         </div>
         <div>
           <ImageSlider images={sliders}/>
+          <div className='pt-14'>
+            <p className='text-semibold text-xl'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia repellat animi, aperiam est tempore, tempora aspernatur, nulla consequuntur a dolore impedit architecto quasi velit quas adipisci. Quia aspernatur consectetur culpa?
+            </p>
+          </div>
           <FeatureItems item={featuredfooditem}/>
         </div>
       </div>

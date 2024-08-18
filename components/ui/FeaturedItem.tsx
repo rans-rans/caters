@@ -22,10 +22,10 @@ export function FeatureItems({item}:pageprops) {
           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="">
               <Card>
-                <CardContent className="relative flex aspect-square items-center justify-center ">
+                <CardContent className="relative flex aspect-square items-center justify-center cursor-pointer">
                 <div className="">
-                    <div className="hidden hover:block absolute bg-black/80 rounded-sm w-full h-full">
-                        <div className="p-8 text-white text-lg leading-tight ">
+                    <div className="opacity-0 transition-opacity duation-300 bg-opacity-50 group-hover:opacity-100 absolute bg-black rounded-sm w-full h-full">
+                        <div className="  p-8 text-lg leading-tight ">
                             <div>
                             {item.itemName}
                             </div>

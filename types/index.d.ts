@@ -25,6 +25,9 @@ declare type LoginUser = {
   password: string;
 };
 
+declare type imagesliderprops = {
+  images : string[] 
+}
 declare type User = {
   email: string;
   firstName: string;
@@ -207,8 +210,7 @@ declare interface FooterProps {
 
 declare interface RightSidebarProps {
   user: User;
-  transactions: Transaction[];
-  banks: Bank[] & Account[];
+ 
 }
 
 declare interface SiderbarProps {

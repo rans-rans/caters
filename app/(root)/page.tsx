@@ -1,9 +1,12 @@
 import HeaderBox from '@/components/ui/HeaderBox'
+import ImageSlider from '@/components/ui/ImageSlider'
+import RightSidebar from '@/components/ui/RightSidebar'
+import { sliders } from '@/constants'
 import React from 'react'
  
 const Home = () => {
   
-  const exampleuser = {
+  const loggedIn = {
   firstName: 'Marcus',
   lastName: 'Oware',
   email:'email'
@@ -12,14 +15,18 @@ const Home = () => {
   return (
     <section  className='home'>
       <div className='home-content'>
+        <div className='home-header'>
+
         <HeaderBox 
-          subtext='a new craft of taste'
-          user={exampleuser.firstName
-          }
-          title="caters cathering"
+          subtext='A New Craft of Taste'
+          title="Caters Cathering"
         />
+        </div>
+        <div>
+          <ImageSlider images={sliders}/>
+        </div>
       </div>
-      
+      <RightSidebar user={loggedIn}/>
     </section>
   )
 }

@@ -7,12 +7,17 @@ export const sidebarLinks = [
   {
     imgURL: "/icons/cart.svg",
     route: "/cart",
-    label: "cart",
+    label: "Cart",
   },
   {
     imgURL: "/icons/aboutus.svg",
     route: "/about",
-    label: "about",
+    label: "About",
+  },
+  {
+    imgURL: "/icons/admin.svg",
+    route: "/admin",
+    label: "Admin",
   },
 
 ];
@@ -27,6 +32,14 @@ export const TEST_USER_ID = "6627ed3d00267aa6fa3e";
 // custom_user -> Chase Bank
 export const TEST_ACCESS_TOKEN =
   "access-sandbox-229476cf-25bc-46d2-9ed5-fba9df7a5d63";
+
+export const sliders = [
+  'assets/friedrice.jpg',
+  'assets/jollof.jpg',
+  'assets/salat.jpg',
+  'assets/waakye.jpg'
+]
+
 
 export const ITEMS = [
   {

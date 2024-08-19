@@ -7,7 +7,7 @@ const FoodCard = () => {
       <Card>
         <CardContent>
             <CardTitle>
-                
+                {/* link */}
             </CardTitle>
             <div>
 

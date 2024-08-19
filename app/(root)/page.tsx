@@ -27,6 +27,7 @@ const Home = () => {
         <div>
           <ImageSlider images={sliders}/>
           <div className='pt-14'>
+
             <p className='text-lg md:text-xl  text-right md:text-wrap leading-2 min-w-lg max-w-[] mx-auto font-normal '>
               We care for your health and  expenses.Book meals of your choice based on the services we provide.Note, prices can change to fit your plan.
             </p>

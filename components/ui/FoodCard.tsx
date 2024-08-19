@@ -19,12 +19,3 @@ const FoodCard = () => {
 }
 
 export default FoodCard
-<Card>
-    <CardCont
-    <CardTitle>
-    </CardTitle>ent>
-        <d
-        iv
-    </div>
-    </CardContent>
-</Card>

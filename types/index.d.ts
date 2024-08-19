@@ -228,6 +228,21 @@ declare interface RecentTransactionsProps {
   appwriteItemId: string;
   page: number;
 }
+declare interface sectiontitle{
+  secName: string,
+  secClass: string
+}
+
+declare interface servicecard{
+  itemName: string,
+  image: string,
+  serviceurl: string,
+  serviceClass?: string
+}
+declare interface fooditem{
+  foodname: string,
+  
+}
 
 declare interface TransactionHistoryTableProps {
   transactions: Transaction[];

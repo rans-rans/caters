@@ -2,6 +2,7 @@ import { FeatureItems } from '@/components/ui/FeaturedItem'
 import HeaderBox from '@/components/ui/HeaderBox'
 import ImageSlider from '@/components/ui/ImageSlider'
 import RightSidebar from '@/components/ui/RightSidebar'
+import SectionTitle from '@/components/ui/SectionTitle'
 import { featuredfooditem, sliders } from '@/constants'
 import React from 'react'
  
@@ -26,9 +27,16 @@ const Home = () => {
         <div>
           <ImageSlider images={sliders}/>
           <div className='pt-14'>
-            <p className='text-semibold text-xl'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia repellat animi, aperiam est tempore, tempora aspernatur, nulla consequuntur a dolore impedit architecto quasi velit quas adipisci. Quia aspernatur consectetur culpa?
+            <p className='text-lg md:text-xl  text-right md:text-wrap leading-2 min-w-lg max-w-[] mx-auto font-normal '>
+              We care for your health and  expenses.Book meals of your choice based on the services we provide.Note, prices can change to fit your plan.
             </p>
+          </div>
+          <div className='pt-12'>
+            <SectionTitle 
+              secClass=''
+              secName='Services'
+            />
+
           </div>
           <FeatureItems item={featuredfooditem}/>
         </div>

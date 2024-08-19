@@ -6,9 +6,15 @@ export const sidebarLinks = [
   },
   {
     imgURL: "/icons/cart.svg",
-    route: "/cart",
-    label: "Cart",
+    route: "/booking",
+    label: "Booking",
   },
+  {
+    imgURL: "",
+    route: "/event",
+    label: "Event"
+  }
+  ,
   {
     imgURL: "/icons/aboutus.svg",
     route: "/about",

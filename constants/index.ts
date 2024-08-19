@@ -10,7 +10,7 @@ export const sidebarLinks = [
     label: "Booking",
   },
   {
-    imgURL: "",
+    imgURL: "/icons/event.svg",
     route: "/event",
     label: "Event"
   }

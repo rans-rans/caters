@@ -19,6 +19,20 @@ const config = {
     },
     extend: {
       colors: {
+        primarycolor: "#161622",
+        secondarycolor: {
+          DEFAULT: "#FF9C01",
+          100: "#FF9001",
+          200: "#FF8E01",
+        },
+        myblack: {
+          DEFAULT: "#000",
+          100: "#1E1E2D",
+          200: "#232533",
+        },
+        mygray: {
+          100: "#CDCDE0",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

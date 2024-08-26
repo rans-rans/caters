@@ -31,7 +31,7 @@ const NavBar = () => {
       <div className='flex items-center flex-row-reverse'>
         <MobileNav/>
         <AvaTar 
-        imageStyles={""}
+        imageStyles={" "}
         imageUrl=''
         label=''
         />

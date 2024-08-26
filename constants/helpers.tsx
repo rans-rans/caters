@@ -29,6 +29,42 @@ const  navlinks = [
 },
 ]
 
+const packages = [
+    {
+        id: 1,
+        label: "Premium"
+    },
+    {
+        id:2,
+        label:"heritage"
+    },
+    {
+        id:3,
+        label:"Diamond"
+    },
+    {
+        id:4,
+        label: "Gold"
+    },
+    {
+        id:5,
+        label:"Titanium"
+    },
+    {
+        id:6,
+        label:"Pesewas"
+    },
+    {
+        id:7,
+        label:"Theboys"
+    },
+    {
+        id:8,
+        label:"Romejully"
+    },
+]
+
+
 export default {
-    navlinks
+    navlinks,packages
 }

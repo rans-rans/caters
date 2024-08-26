@@ -6,9 +6,9 @@ import NavBar from '../ui/NavBar'
 
 const Provider = ({children}:coverprops) => {
   return (
-    <main>
+    <main >
       <NavBar/>
-      <div>
+      <div className=' mx-auto h-full bg-primarycolor  w-full md:w-[80%] px-4 text-white'>
         {children}
       </div>
     </main>

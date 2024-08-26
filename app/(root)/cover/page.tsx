@@ -10,7 +10,7 @@ import ListWithIcon from '@/listwithIcon'
 
 const Cover = () => {
   return (
-    <section   className=''>
+    <section   className='pt-10'>
       {/* hero section */}
       <article id="#hero" className='text-white md:grid md:grid-cols-2 gap-16 items-center  md:px-8 pt-5'>
         <div className='flex-1 items-center justify-center gap-4  space-y-6'>

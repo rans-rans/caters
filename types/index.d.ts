@@ -11,3 +11,9 @@ interface avatarprops {
     label: string,
     imageStyles: string
 }
+
+interface comprops{
+    className?:string,
+    message:string,
+    imageUrl:string
+}

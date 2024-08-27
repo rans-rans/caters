@@ -74,7 +74,7 @@ const Cover = () => {
               />
           </div>
           <div className='text-lg font-normal pt-8 md:pt-0'>
-            <p className='text-md leading-relaxed text-justify max-w-lg'>
+            <p className='font-medium text-sm  text-justify md:text-balance leading-relaxed  max-w-md'>
               For your daily celebarations,outings, festives and parties.
               payments are only made after we reach out to you for further 
               disscussions.If you meet all our requirements , we will serve you

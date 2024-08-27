@@ -1,8 +1,13 @@
+import {Poppins} from 'next/font/google'
 import type { Metadata } from "next";
 import "./globals.css";
 import Provider from "@/components/provider";
 
-
+const poppins = Poppins({
+  weight: '400',
+  subsets:['latin'],
+  display:'swap'
+})
 
 export const metadata: Metadata = {
   title: "Caters",
@@ -16,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">
+      <body className={poppins.className}>
         <Provider>
           {children}
         </Provider>

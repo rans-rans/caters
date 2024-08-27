@@ -2,6 +2,7 @@ import icons from "./icons"
 
 
 const  navlinks = [
+
     {
      imageUrl: "/assets/icons/home.svg",
      label: "home",
@@ -30,37 +31,52 @@ const  navlinks = [
 ]
 
 const packages = [
+    
+    {
+        id:0,
+        label: "All",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
     {
         id: 1,
-        label: "Premium"
+        label: "Premium",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:2,
-        label:"heritage"
+        label:"heritage",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        
     },
     {
         id:3,
-        label:"Diamond"
+        label:"Diamond",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:4,
-        label: "Gold"
+        label: "Gold",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:5,
-        label:"Titanium"
+        label:"Titanium",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:6,
-        label:"Pesewas"
+        label:"Pesewas",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:7,
-        label:"Theboys"
+        label:"Theboys",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:8,
-        label:"Romejully"
+        label:"Romejully",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
 ]
 

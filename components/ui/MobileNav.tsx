@@ -55,7 +55,7 @@ const MobileNav = () => {
                     }
                 </div> 
                     {/* log out session  */}
-                <div className='absolute flex gap-16 bottom-0 px-2'>
+                <div className='absolute flex gap-10 bottom-0 px-2 items-center justify-between w-full'>
                     <p className='text-lg uppercase'>log out</p>
                     
                     <Button className='bg-white hover:bg-white'>

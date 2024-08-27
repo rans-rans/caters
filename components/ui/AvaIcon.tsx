@@ -8,7 +8,7 @@ import { avatarprops } from '@/types'
 
 const AvaTar = ({imageUrl,label,imageStyles}:avatarprops) => {
   return (
-    <Avatar>
+    <Avatar className='w-10 h-10 overflow-hidden bg-secondarycolor-100'>
       <AvatarImage  
       src={icons.freshfv}
       alt={"avatar icon"}

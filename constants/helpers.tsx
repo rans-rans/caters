@@ -65,17 +65,17 @@ const packages = [
     },
     {
         id:6,
-        label:"Pesewas",
+        label:"Silver",
         description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:7,
-        label:"Theboys",
+        label:"Copper",
         description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:8,
-        label:"Romejully",
+        label:"Aluminium",
         description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
 ]

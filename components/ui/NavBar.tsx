@@ -8,7 +8,7 @@ import AvaTar from './AvaIcon'
 
 const NavBar = () => {
   return (
-    <div className='flex items-start justify-between px-4 py-2 border-b bg-primarycolor'>
+    <div className='w-full md:max-w-[65%] mx-auto flex  justify-between px-4 py-2 border-b bg-primarycolor'>
       {/* 
       four stuffs will show on the web page .
        -> the logo 
@@ -22,13 +22,17 @@ const NavBar = () => {
       <div className='overflow-hidden '>
         <Image 
             src={Logo}
+            width={40}
+            height={40}
             alt="logo icon"
-            className="m-auto"
+            className=""
         />
       </div>
+      <div>
+        <HorizonLinks />
 
-      <HorizonLinks />
-      <div className='flex items-center flex-row-reverse'>
+      </div>
+      <div className='flex items-center flex-row-reverse gap-1 '>
         <MobileNav/>
         <AvaTar 
         imageStyles={" "}

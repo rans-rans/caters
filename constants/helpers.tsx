@@ -81,6 +81,79 @@ const packages = [
 ]
 
 
+const packcard = [
+    {
+        id: 1,
+        label: "Premium",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:2,
+        label:"heritage",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        
+    },
+    {
+        id:3,
+        label:"Diamond",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:4,
+        label: "Gold",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:5,
+        label:"Titanium",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:6,
+        label:"Silver",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:7,
+        label:"Copper",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:8,
+        label:"Aluminium",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+]
+
+
+const menucard = [
+    {
+        id: 1,
+        label: "funeral"
+    },
+    {
+        id:2,
+        label: "Engagement"
+    },
+    {
+        id:3,
+        label: "Wedding"
+    },
+    {
+        id:4,
+        label:"Anniversary"
+    },
+    {
+        id:5,
+        label: "Dates"
+    },
+    {
+        id:6,
+        label: "Dinners"
+    }
+]
+
+
 export default {
     navlinks,packages
 }

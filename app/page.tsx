@@ -21,8 +21,7 @@ export default function Home() {
       <FlatlIst 
         type="horizon"
         items={helpers.packages}
-        className=""
-      />
+        className=""      />
     </section>
   );
 }

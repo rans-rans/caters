@@ -9,7 +9,7 @@ interface listprops {
 
 const ListWithIcon = ({message}:listprops) => {
   return (
-    <li className='flex items-center gap-4'>
+    <li className='flex items-center gap-4 font-medium text-sm  text-justify md:text-balance leading-relaxed  max-w-md'>
       <Image 
       src={icons.filterlines}
       alt={message}

@@ -74,13 +74,14 @@ const Cover = () => {
               />
           </div>
           <div className='text-lg font-normal pt-8 md:pt-0'>
-            <p className='text-md leading-relaxed text-justify max-w-lg'>
+            <p className='font-medium text-sm  text-justify md:text-balance leading-relaxed  max-w-md'>
               For your daily celebarations,outings, festives and parties.
               payments are only made after we reach out to you for further 
               disscussions.If you meet all our requirements , we will serve you
               on that special day . Please Note we do not take online payment for now.We only take the responsibility of cooking for you . we do not do the serving but if you need waiters for your ocassions we may be compromise base on our agreement. the folling are some few outlined services:
             </p>
-            <ul className='pt-8 space-y-4'>
+            <ul className='pt-8 grid grid-cols-1 md:grid-cols-2 items-center justify-center
+             space-y-4'>
               <ListWithIcon
                 message="wedding ceremony"
                 

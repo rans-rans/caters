@@ -1,13 +1,13 @@
+import { cn } from '@/lib/utils'
+import { headerprops } from '@/types'
 import React from 'react'
 
-interface headprops {
-    message: string
-}
 
-const Header = ({message}:headprops) => {
+const Header = ({message,className}:headerprops) => {
   return (
-    <h2 className='font-extrabold text-xl pt-10 text-wrap max-w-[250px] leading-2 tracking-wide'>
+    <h2 className={cn('',className)}>
       {message}
+
     </h2>
   )
 }

@@ -67,3 +67,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.flexbox {
+  @apply flex items-center justify-between gap-4
+}

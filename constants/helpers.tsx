@@ -2,6 +2,7 @@ import icons from "./icons"
 
 
 const  navlinks = [
+
     {
      imageUrl: "/assets/icons/home.svg",
      label: "home",
@@ -30,41 +31,137 @@ const  navlinks = [
 ]
 
 const packages = [
+    
+    {
+        id:0,
+        label: "All",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
     {
         id: 1,
-        label: "Premium"
+        label: "Premium",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:2,
-        label:"heritage"
+        label:"heritage",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        
     },
     {
         id:3,
-        label:"Diamond"
+        label:"Diamond",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:4,
-        label: "Gold"
+        label: "Gold",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:5,
-        label:"Titanium"
+        label:"Titanium",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:6,
-        label:"Pesewas"
+        label:"Silver",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:7,
-        label:"Theboys"
+        label:"Copper",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:8,
-        label:"Romejully"
+        label:"Aluminium",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
 ]
 
 
+const packcard = [
+    {
+        id: 1,
+        label: "Premium",
+        title: 'Premium',
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:2,
+        label:"heritage",
+        title: "heritage",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        
+    },
+    {
+        id:3,
+        label:"Diamond",
+        title:"Diamond",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:4,
+        label: "Gold",
+        title:"Gold",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:5,
+        label:"Titanium",
+        title:"Titanium",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:6,
+        label:"Silver",
+        title:"Silver",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:7,
+        label:"Copper",
+        title:"Copper",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+    {
+        id:8,
+        label:"Aluminium",
+        title:"Aluminium",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+    },
+]
+
+
+const menucard = [
+    {
+        id: 1,
+        label: "funeral"
+    },
+    {
+        id:2,
+        label: "Engagement"
+    },
+    {
+        id:3,
+        label: "Wedding"
+    },
+    {
+        id:4,
+        label:"Anniversary"
+    },
+    {
+        id:5,
+        label: "Dates"
+    },
+    {
+        id:6,
+        label: "Dinners"
+    }
+]
+
+
 export default {
-    navlinks,packages
+    navlinks,packages,packcard
 }

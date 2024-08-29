@@ -41,7 +41,7 @@ const About = () => {
          titleClass='font-bold text-xl '
         />  
       </article>
-      <article className='bg-mygray p-8 text-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 md:gap-2'>
+      <article className=' p-8 text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 md:gap-2'>
         <ImageWithText 
         cta={false}
         imageUrl={images.bluecake}

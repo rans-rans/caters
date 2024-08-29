@@ -85,43 +85,51 @@ const packcard = [
     {
         id: 1,
         label: "Premium",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        title: 'Premium',
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:2,
         label:"heritage",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        title: "heritage",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
         
     },
     {
         id:3,
         label:"Diamond",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        title:"Diamond",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:4,
         label: "Gold",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        title:"Gold",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:5,
         label:"Titanium",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        title:"Titanium",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:6,
         label:"Silver",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        title:"Silver",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:7,
         label:"Copper",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        title:"Copper",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
     {
         id:8,
         label:"Aluminium",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
+        title:"Aluminium",
+        message:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quisquam obcaecati fugit aperiam eum, rerum esse earum vitae rem corrupti maiores. Fugit?"
     },
 ]
 
@@ -155,5 +163,5 @@ const menucard = [
 
 
 export default {
-    navlinks,packages
+    navlinks,packages,packcard
 }

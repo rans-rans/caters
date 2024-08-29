@@ -31,6 +31,7 @@ const config = {
           200: "#232533",
         },
         mygray: {
+          DEFAULT:"#D5D5D5",
           100: "#CDCDE0",
         },
         border: "hsl(var(--border))",
